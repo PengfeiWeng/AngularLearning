@@ -1,0 +1,21 @@
+.form-group.message.green {
+  color: #00FF00;
+}
+
+.form-group.message.red {
+  color: #FF0000;
+}
+
+.form-control.green {
+  border-style: solid;
+  border-color: #00FF00;
+}
+
+.form-control.red {
+  border-style: solid;
+  border-color: #FF0000;
+}
+
+.highlight {
+  background-color: lightblue;
+}
