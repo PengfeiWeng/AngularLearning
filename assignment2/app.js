@@ -27,6 +27,8 @@
       { name: "cookies", quantity: 10 },
       { name: "dumplings", quantity: 5 },
       { name: "chips", quantity: 4 },
+      { name: "milk", quantity: 5 },
+      { name: "donuts", quantity: 11 },
     ];
 
     this.boughtItems = [];
