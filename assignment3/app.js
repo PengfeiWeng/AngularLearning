@@ -19,6 +19,9 @@
         var foundItems = [];
         var menuItems = result.data.menu_items;
         for (var item of menuItems) {
+          if (searchTerm == null || searchTerm === ''){
+            continue;
+          }
           if (item.description.includes(searchTerm)) {
             foundItems.push(item);
           }
