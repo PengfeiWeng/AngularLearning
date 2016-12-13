@@ -1,0 +1,12 @@
+<div class="not-sign-up" ng-if=' !MyInfoCtrl.info || !MyInfoCtrl.item'>
+  <h1>Not Signed Up Yet. <a ui-sref="public.signUp">Sign up Now!</a></h1>
+</div>
+<div class="container registration" ng-if=' MyInfoCtrl.info && MyInfoCtrl.item'>
+  <h1>Your registrition information: </h1>
+  <div>First Name: {{MyInfoCtrl.info.firstName}}</div>
+  <div>Last Name: {{MyInfoCtrl.info.lastName}}</div>
+  <div>Email: {{MyInfoCtrl.info.email}}</div>
+  <div>Phone Number: {{MyInfoCtrl.info.phone}}</div>
+  <div>Your favorite dish:</div>
+  <menu-item class='favoriteItem' menu-item="MyInfoCtrl.item"></menu-item>
+</div>
